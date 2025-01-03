@@ -17,5 +17,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 vim.wo.number = true
 
+vim.api.nvim_set_option("clipboard", "unnamed")
+
 require("vim-options")
 require("lazy").setup("plugins")
