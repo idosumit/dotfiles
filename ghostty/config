@@ -33,4 +33,4 @@ keybind = ctrl+s>d=close_window
 keybind = ctrl+a>f=toggle_fullscreen
 
 # clear the screen
-keybind = ctrl+l=clear_screen
+keybind = alt+l=clear_screen
