@@ -1,0 +1,26 @@
+theme = tokyonight
+font-family = 0xProto Nerd Font Mono
+font-size = 16
+font-thicken = true
+
+# ==================keybinds
+
+# for new window panes
+keybind = ctrl+a>l=new_split:right
+keybind = ctrl+a>h=new_split:left
+keybind = ctrl+a>k=new_split:up
+keybind = ctrl+a>j=new_split:down
+
+# for pane split resizing
+keybind = ctrl+h=resize_split:left,10
+keybind = ctrl+l=resize_split:right,10
+keybind = ctrl+k=resize_split:up,10
+keybind = ctrl+j=resize_split:down,10
+
+# for moving between panes
+keybind = ctrl+shift+k=goto_split:top
+keybind = ctrl+shift+j=goto_split:bottom
+keybind = ctrl+shift+h=goto_split:left
+keybind = ctrl+shift+l=goto_split:right
+keybind = ctrl+a>p=goto_split:previous
+keybind = ctrl+a>n=goto_split:next
