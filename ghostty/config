@@ -18,9 +18,16 @@ keybind = ctrl+k=resize_split:up,10
 keybind = ctrl+j=resize_split:down,10
 
 # for moving between panes
-keybind = ctrl+shift+k=goto_split:top
-keybind = ctrl+shift+j=goto_split:bottom
-keybind = ctrl+shift+h=goto_split:left
-keybind = ctrl+shift+l=goto_split:right
-keybind = ctrl+a>p=goto_split:previous
-keybind = ctrl+a>n=goto_split:next
+keybind = ctrl+s>k=goto_split:top
+keybind = ctrl+s>j=goto_split:bottom
+keybind = ctrl+s>h=goto_split:left
+keybind = ctrl+s>l=goto_split:right
+keybind = ctrl+s>p=goto_split:previous
+keybind = ctrl+s>n=goto_split:next
+
+# for closing surfaces & windows
+keybind = ctrl+a>d=close_surface
+keybind = ctrl+s>d=close_window
+
+# toggle fullscreen
+keybind = ctrl+a>f=toggle_fullscreen
